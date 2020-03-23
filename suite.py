@@ -324,7 +324,7 @@ class Test(object):
     # Static member variables, set explicitly in apply_args in Suite class
     compile_only = False
     skip_comparison = False
-    global_tolerance = None
+    global_tolerance = 1.e-14
     performance_params = []
 
     # Properties - allow for direct access as an attribute
